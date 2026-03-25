@@ -89,11 +89,10 @@ This block is commented out so the README stays clean/premium.
     />
   </p>
   <p align="center">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/ML-FA9D00?style=for-the-badge&logo=ai&logoColor=white" alt="Machine Learning" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-    <img src="https://img.shields.io/badge/Automation-4F46E5?style=for-the-badge&logo=zapier&logoColor=white" alt="Automation" />
+    <img src="https://img.shields.io/github/stars/TEHILLA-O/TEHILLA-O?style=for-the-badge&logo=github&color=FFD166" alt="Stars" />
+    <img src="https://img.shields.io/github/forks/TEHILLA-O/TEHILLA-O?style=for-the-badge&logo=git&color=4F46E5" alt="Forks" />
+    <img src="https://img.shields.io/github/issues/TEHILLA-O/TEHILLA-O?style=for-the-badge&logo=github&color=F59E0B" alt="Issues" />
+    <img src="https://img.shields.io/github/license/TEHILLA-O/TEHILLA-O?style=for-the-badge&logo=opensourceinitiative&color=10B981" alt="License" />
   </p>
 
 <!--
