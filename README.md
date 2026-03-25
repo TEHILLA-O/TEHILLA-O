@@ -49,28 +49,15 @@ This block is commented out so the README stays clean/premium.
 </p>
 -->
 
-| **About** | **Links** |
-| --- | --- |
-| I build ML models, automate things, and craft sound.<br/>I focus on practical pipelines: data -> experiments -> deployment. | [All projects](https://cv.omnifichand.com/)<br/>[LinkedIn](https://www.linkedin.com/in/tehilla-obanor/) |
-
-<details>
-  <summary><b>Wakatime</b></summary>
-  <p align="center">
-    <img src="https://wakatime.com/badge/user/tehilla-o.svg" alt="Wakatime" />
-  </p>
-</details>
-
-<details>
-  <summary><b>Support</b></summary>
-  <p align="center">
-    <a href="https://buymeacoffee.com/tehilla">
-      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee" />
-    </a>
-    <a href="https://ko-fi.com/tehilla">
-      <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Support on Ko-fi" />
-    </a>
-  </p>
-</details>
+### Support
+<p align="center">
+  <a href="https://buymeacoffee.com/tehilla">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee" />
+  </a>
+  <a href="https://ko-fi.com/tehilla">
+    <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Support on Ko-fi" />
+  </a>
+</p>
 
 ### Stats & badges
 <p align="center">
