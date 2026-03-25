@@ -34,6 +34,7 @@ This block is commented out so the README stays clean/premium.
 
 -->
 
+<!--
 ### Languages & tools
 - Python, JavaScript/TypeScript
 - Flask, React, React Native
@@ -48,7 +49,87 @@ This block is commented out so the README stays clean/premium.
     alt="Top languages"
   />
 </p>
+-->
 
+<table align="center">
+  <tr>
+    <td width="50%" valign="top">
+      <details open>
+        <summary><b>About</b></summary>
+        <p align="left">
+          I build ML models, automate things, and craft sound.
+          <br />
+          I focus on practical pipelines: data -> experiments -> deployment.
+        </p>
+      </details>
+
+      <details>
+        <summary><b>Tech stack</b></summary>
+        <p align="left">
+          Python, JavaScript/TypeScript
+          <br />
+          Flask, React, React Native
+          <br />
+          Node.js, Postgres, MySQL
+          <br />
+          PyTorch, TensorFlow, scikit-learn
+          <br />
+          Docker, Git, Tailwind CSS
+        </p>
+      </details>
+    </td>
+
+    <td width="50%" valign="top">
+      <details open>
+        <summary><b>Links</b></summary>
+        <p align="left">
+          <a href="https://cv.omnifichand.com/">All projects</a>
+          <br />
+          <a href="https://www.linkedin.com/in/tehilla-obanor/">LinkedIn</a>
+        </p>
+      </details>
+
+      <details>
+        <summary><b>Wakatime</b></summary>
+        <p align="center">
+          <!-- If your Wakatime username differs, replace "tehilla-o" in this URL -->
+          <img src="https://wakatime.com/badge/user/tehilla-o.svg" alt="Wakatime" />
+        </p>
+      </details>
+
+      <details>
+        <summary><b>Support</b></summary>
+        <p align="center">
+          <a href="https://buymeacoffee.com/tehilla">
+            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee" />
+          </a>
+          <a href="https://ko-fi.com/tehilla">
+            <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Support on Ko-fi" />
+          </a>
+        </p>
+      </details>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><b>Stats & badges</b></summary>
+  <p align="center">
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs?username=tehilla-o&show_icons=true&locale=en&layout=compact"
+      alt="Top languages"
+    />
+  </p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/ML-FA9D00?style=for-the-badge&logo=ai&logoColor=white" alt="Machine Learning" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+    <img src="https://img.shields.io/badge/Automation-4F46E5?style=for-the-badge&logo=zapier&logoColor=white" alt="Automation" />
+  </p>
+</details>
+
+<!--
 ### Badges
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -57,7 +138,9 @@ This block is commented out so the README stays clean/premium.
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Automation-4F46E5?style=for-the-badge&logo=zapier&logoColor=white" alt="Automation" />
 </p>
+-->
 
+<!--
 ### Support
 <p align="center">
   <a href="https://buymeacoffee.com/tehilla">
@@ -67,3 +150,4 @@ This block is commented out so the README stays clean/premium.
     <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Support on Ko-fi" />
   </a>
 </p>
+-->
