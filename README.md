@@ -51,66 +51,52 @@ This block is commented out so the README stays clean/premium.
 </p>
 -->
 
-<table align="center">
-  <tr>
-    <td width="50%" valign="top">
-      <details open>
-        <summary><b>About</b></summary>
-        <p align="left">
-          I build ML models, automate things, and craft sound.
-          <br />
-          I focus on practical pipelines: data -> experiments -> deployment.
-        </p>
-      </details>
+| **About** | **Links** |
+| --- | --- |
+| I build ML models, automate things, and craft sound.<br/>I focus on practical pipelines: data -> experiments -> deployment. | [All projects](https://cv.omnifichand.com/)<br/>[LinkedIn](https://www.linkedin.com/in/tehilla-obanor/) |
 
-      <details>
-        <summary><b>Tech stack</b></summary>
-        <p align="left">
-          Python, JavaScript/TypeScript
-          <br />
-          Flask, React, React Native
-          <br />
-          Node.js, Postgres, MySQL
-          <br />
-          PyTorch, TensorFlow, scikit-learn
-          <br />
-          Docker, Git, Tailwind CSS
-        </p>
-      </details>
-    </td>
+<details open>
+  <summary><b>About</b></summary>
+  <p align="left">
+    I build ML models, automate things, and craft sound.
+    <br />
+    I focus on practical pipelines: data -> experiments -> deployment.
+  </p>
+</details>
 
-    <td width="50%" valign="top">
-      <details open>
-        <summary><b>Links</b></summary>
-        <p align="left">
-          <a href="https://cv.omnifichand.com/">All projects</a>
-          <br />
-          <a href="https://www.linkedin.com/in/tehilla-obanor/">LinkedIn</a>
-        </p>
-      </details>
+<details>
+  <summary><b>Tech stack</b></summary>
+  <p align="left">
+    Python, JavaScript/TypeScript
+    <br />
+    Flask, React, React Native
+    <br />
+    Node.js, Postgres, MySQL
+    <br />
+    PyTorch, TensorFlow, scikit-learn
+    <br />
+    Docker, Git, Tailwind CSS
+  </p>
+</details>
 
-      <details>
-        <summary><b>Wakatime</b></summary>
-        <p align="center">
-          <!-- If your Wakatime username differs, replace "tehilla-o" in this URL -->
-          <img src="https://wakatime.com/badge/user/tehilla-o.svg" alt="Wakatime" />
-        </p>
-      </details>
+<details>
+  <summary><b>Wakatime</b></summary>
+  <p align="center">
+    <img src="https://wakatime.com/badge/user/tehilla-o.svg" alt="Wakatime" />
+  </p>
+</details>
 
-      <details>
-        <summary><b>Support</b></summary>
-        <p align="center">
-          <a href="https://buymeacoffee.com/tehilla">
-            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee" />
-          </a>
-          <a href="https://ko-fi.com/tehilla">
-            <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Support on Ko-fi" />
-          </a>
-        </p>
-      </details>
-    </td>
-  </tr>
-</table>
+<details>
+  <summary><b>Support</b></summary>
+  <p align="center">
+    <a href="https://buymeacoffee.com/tehilla">
+      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee" />
+    </a>
+    <a href="https://ko-fi.com/tehilla">
+      <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Support on Ko-fi" />
+    </a>
+  </p>
+</details>
 
 <details>
   <summary><b>Stats & badges</b></summary>
