@@ -76,6 +76,12 @@ This block is commented out so the README stays clean/premium.
     <img src="https://img.shields.io/github/issues/TEHILLA-O/TEHILLA-O?style=for-the-badge&logo=github&color=F59E0B" alt="Issues" />
     <img src="https://img.shields.io/github/license/TEHILLA-O/TEHILLA-O?style=for-the-badge&logo=opensourceinitiative&color=10B981" alt="License" />
   </p>
+  <p align="center"><i>Open to ML/automation collaborations</i></p>
+
+## Current Focus
+- ML systems that ship quickly and reliably
+- Automation for cheap and scalable operations
+- Minor cyber security hardening for SaaS products
 
 <!--
 ### Badges
