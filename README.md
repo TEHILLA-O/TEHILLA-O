@@ -61,11 +61,15 @@ This block is commented out so the README stays clean/premium.
 
 ### Stats & badges
 <p align="center">
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs?username=tehilla-o&show_icons=true&locale=en&layout=compact"
-      alt="Top languages"
-    />
-  </p>
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=tehilla-o&show_icons=true&locale=en&layout=compact"
+    alt="Top languages"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tehilla-o&theme=github_dark"
+    alt="GitHub stats summary"
+  />
+</p>
   <p align="center">
     <img src="https://img.shields.io/github/stars/TEHILLA-O/TEHILLA-O?style=for-the-badge&logo=github&color=FFD166" alt="Stars" />
     <img src="https://img.shields.io/github/forks/TEHILLA-O/TEHILLA-O?style=for-the-badge&logo=git&color=4F46E5" alt="Forks" />
