@@ -53,15 +53,6 @@ This block is commented out so the README stays clean/premium.
 | --- | --- |
 | I build ML models, automate things, and craft sound.<br/>I focus on practical pipelines: data -> experiments -> deployment. | [All projects](https://cv.omnifichand.com/)<br/>[LinkedIn](https://www.linkedin.com/in/tehilla-obanor/) |
 
-<details open>
-  <summary><b>About</b></summary>
-  <p align="left">
-    I build ML models, automate things, and craft sound.
-    <br />
-    I focus on practical pipelines: data -> experiments -> deployment.
-  </p>
-</details>
-
 <details>
   <summary><b>Wakatime</b></summary>
   <p align="center">
