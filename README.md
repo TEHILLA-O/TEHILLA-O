@@ -11,8 +11,7 @@
 
   <p>
     <a href="https://cv.omnifichand.com/">All projects</a> &nbsp;|&nbsp;
-    <a href="https://www.linkedin.com/in/tehilla-obanor/">LinkedIn</a> &nbsp;|&nbsp;
-    <a href="https://instagram.com/_tehilo">Instagram</a>
+    <a href="https://www.linkedin.com/in/tehilla-obanor/">LinkedIn</a>
   </p>
 
   <p>
