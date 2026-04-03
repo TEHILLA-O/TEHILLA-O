@@ -13,13 +13,13 @@
     <a href="https://cv.omnifichand.com/">All projects</a> &nbsp;|&nbsp;
     <a href="https://www.linkedin.com/in/tehilla-obanor/">LinkedIn</a>
   </p>
-
-  <p>
-    <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy.vercel.app/?username=tehilla-o&theme=onedark" alt="GitHub Profile Trophy" />
-    </a>
-  </p>
 </div>
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=tehilla-o&theme=onedark" alt="" />
+  </a>
+</p>
 
 ---
 
