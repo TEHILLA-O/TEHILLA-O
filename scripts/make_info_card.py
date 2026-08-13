@@ -15,7 +15,7 @@ ROWS = [
     ("Now", "ML systems · automation · SaaS hardening"),
     ("Focus", "Cheap, scalable pipelines that ship"),
     ("Stack", "Python · TS · React · Docker · PyTorch"),
-    ("Projects", "cv.omnifichand.com"),
+    ("Projects", "cv.omnites.dev"),
     ("Open to", "ML / automation collaborations"),
 ]
 
