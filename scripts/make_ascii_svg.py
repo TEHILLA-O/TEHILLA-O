@@ -44,14 +44,15 @@ def monogram_grid(scale: int = 6) -> list[str]:
     return rows
 
 
-def image_to_grid(path: Path, cols: int = 80) -> list[str]:
+def image_to_grid(path: Path, cols: int = 90) -> list[str]:
     from PIL import Image  # type: ignore
 
     img = Image.open(path).convert("L")
     w, h = img.size
-    aspect = 0.45  # character cells are taller than wide
-    rows = max(8, int(cols * (h / w) * aspect))
-    img = img.resize((cols, rows))
+    # Characters are taller than wide; portraits need a bit more vertical resolution
+    aspect = 0.52
+    rows = max(12, int(cols * (h / w) * aspect))
+    img = img.resize((cols, rows), Image.Resampling.LANCZOS)
     px = img.load()
     out = []
     n = len(RAMP) - 1
@@ -60,9 +61,11 @@ def image_to_grid(path: Path, cols: int = 80) -> list[str]:
         for x in range(cols):
             # bright -> sparse (space), dark -> dense
             v = px[x, y]
+            # slight gamma so midtones (face) get more glyph variety
+            v = int(255 * ((v / 255) ** 0.85))
             idx = int((255 - v) / 255 * n)
             line.append(RAMP[idx])
-        out.append("".join(line))
+        out.append("".join(line).rstrip())
     return out
 
 
