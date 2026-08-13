@@ -34,11 +34,14 @@ ML systems that ship · cheap scalable automation · SaaS security hardening
 ### How I ship ML
 ```mermaid
 flowchart LR
-  A[Data / signals] --> B[Clean + features]
-  B --> C[Train / eval]
-  C --> D[Serve API]
-  D --> E[Monitor + retrain]
-  E -.-> B
+  A[Identify the problem] --> B[Observe existing workflow]
+  B --> C[Test workflow bottlenecks]
+  C --> D[Data / signals]
+  D --> E[Clean + features]
+  E --> F[Train / eval]
+  F --> G[Serve API]
+  G --> H[Monitor + retrain]
+  H -.-> C
 ```
 
 ### Featured projects
