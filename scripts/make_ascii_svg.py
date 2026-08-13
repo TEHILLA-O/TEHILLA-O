@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "tehilla-ascii.svg"
 
-RAMP = " .`:-=+*cs#%@"
+RAMP = " .:-=+*#%@"  # fewer steps, stronger jumps = more contrast
 
 # 7x5 block letter "T" for monogram fallback
 GLYPH_T = [
@@ -44,12 +44,11 @@ def monogram_grid(scale: int = 6) -> list[str]:
     return rows
 
 
-def image_to_grid(path: Path, cols: int = 90) -> list[str]:
+def image_to_grid(path: Path, cols: int = 96) -> list[str]:
     from PIL import Image  # type: ignore
 
     img = Image.open(path).convert("L")
     w, h = img.size
-    # Characters are taller than wide; portraits need a bit more vertical resolution
     aspect = 0.52
     rows = max(12, int(cols * (h / w) * aspect))
     img = img.resize((cols, rows), Image.Resampling.LANCZOS)
@@ -59,11 +58,15 @@ def image_to_grid(path: Path, cols: int = 90) -> list[str]:
     for y in range(rows):
         line = []
         for x in range(cols):
-            # bright -> sparse (space), dark -> dense
             v = px[x, y]
-            # slight gamma so midtones (face) get more glyph variety
-            v = int(255 * ((v / 255) ** 0.85))
-            idx = int((255 - v) / 255 * n)
+            # hard contrast: crush near-white to space, stretch the rest
+            if v >= 245:
+                line.append(" ")
+                continue
+            # gamma < 1 => midtones darker => denser glyphs on face
+            t = max(0.0, min(1.0, (255 - v) / 255.0))
+            t = t ** 0.72
+            idx = int(round(t * n))
             line.append(RAMP[idx])
         out.append("".join(line).rstrip())
     return out
