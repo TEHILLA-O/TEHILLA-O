@@ -72,54 +72,57 @@ def image_to_grid(path: Path, cols: int = 96) -> list[str]:
     return out
 
 
-def write_svg(grid: list[str], out: Path) -> None:
+def write_svg(grid: list[str], out: Path, *, light: bool = False) -> None:
     # monospace metrics
-    font_size = 9
-    char_w = 5.4
-    line_h = 11
-    pad = 16
-    cols = max(len(r) for r in grid) if grid else 1
+    font_size = 8 if light else 9
+    char_w = 5.2 if light else 5.4
+    line_h = 10 if light else 11
+    pad = 14
+    cols = max((len(r) for r in grid), default=1)
     width = int(pad * 2 + cols * char_w)
     height = int(pad * 2 + len(grid) * line_h + 8)
+
+    bg = "#f0f3f6" if light else "#0d1117"
+    fg = "#0d1117" if light else "#c9d1d9"
+    cursor = "#0969da" if light else "#58a6ff"
+    border = "#d0d7de" if light else "#30363d"
 
     texts = []
     for i, row in enumerate(grid):
         y = pad + (i + 1) * line_h
-        delay = 0.05 + i * 0.045
-        # row wipe via clipPath + animate
+        delay = 0.04 + i * 0.035
         clip_id = f"c{i}"
         texts.append(
             f'<clipPath id="{clip_id}">'
             f'<rect x="0" y="{y - line_h}" width="0" height="{line_h + 2}">'
-            f'<animate attributeName="width" from="0" to="{width}" begin="{delay:.3f}s" dur="0.28s" fill="freeze"/>'
+            f'<animate attributeName="width" from="0" to="{width}" begin="{delay:.3f}s" dur="0.25s" fill="freeze"/>'
             f"</rect></clipPath>"
             f'<text x="{pad}" y="{y}" class="ascii" clip-path="url(#{clip_id})">'
             f"{_xml_escape(row)}</text>"
-            # tiny cursor block
-            f'<rect x="{pad}" y="{y - line_h + 2}" width="6" height="{line_h - 2}" class="cursor" opacity="0">'
-            f'<animate attributeName="opacity" values="0;1;0" begin="{delay:.3f}s" dur="0.28s" fill="freeze"/>'
-            f'<animate attributeName="x" from="{pad}" to="{width - pad - 6}" begin="{delay:.3f}s" dur="0.28s" fill="freeze"/>'
+            f'<rect x="{pad}" y="{y - line_h + 2}" width="5" height="{line_h - 2}" class="cursor" opacity="0">'
+            f'<animate attributeName="opacity" values="0;1;0" begin="{delay:.3f}s" dur="0.25s" fill="freeze"/>'
+            f'<animate attributeName="x" from="{pad}" to="{width - pad - 5}" begin="{delay:.3f}s" dur="0.25s" fill="freeze"/>'
             f"</rect>"
         )
 
     svg = f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
   <style>
-    .bg {{ fill: #0d1117; }}
+    .bg {{ fill: {bg}; stroke: {border}; stroke-width: 1; }}
     .ascii {{
-      fill: #c9d1d9;
+      fill: {fg};
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: {font_size}px;
       white-space: pre;
     }}
-    .cursor {{ fill: #58a6ff; }}
+    .cursor {{ fill: {cursor}; }}
   </style>
-  <rect class="bg" width="100%" height="100%" rx="10"/>
+  <rect class="bg" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="10"/>
   {''.join(texts)}
 </svg>
 """
     out.write_text(svg, encoding="utf-8")
-    print(f"Wrote {out} ({len(grid)} rows)")
+    print(f"Wrote {out} ({len(grid)} rows, light={light})")
 
 
 def _xml_escape(s: str) -> str:
@@ -133,12 +136,17 @@ def _xml_escape(s: str) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--from-image", type=Path, default=None)
+    ap.add_argument("--light", action="store_true", help="Force light paper card")
+    ap.add_argument("--dark", action="store_true", help="Force dark card")
     args = ap.parse_args()
     if args.from_image:
         grid = image_to_grid(args.from_image)
+        # Portraits default to light paper for readable face detail
+        light = False if args.dark else True
     else:
         grid = monogram_grid()
-    write_svg(grid, OUT)
+        light = args.light and not args.dark
+    write_svg(grid, OUT, light=light)
 
 
 if __name__ == "__main__":
