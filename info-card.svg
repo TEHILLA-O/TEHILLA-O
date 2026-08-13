@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="280" viewBox="0 0 490 280">
+  <style>
+    .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .bar { fill: #161b22; }
+    .dot-r { fill: #ff5f56; }
+    .dot-y { fill: #ffbd2e; }
+    .dot-g { fill: #27c93f; }
+    .title { fill: #58a6ff; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; }
+    .key { fill: #3fb950; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; font-weight: 700; }
+    .val { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; }
+    .prompt { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; }
+  </style>
+  <rect class="panel" x="0.5" y="0.5" width="489" height="279" rx="10"/>
+  <rect class="bar" x="0.5" y="0.5" width="489" height="36" rx="10"/>
+  <rect class="bar" x="0.5" y="20" width="489" height="16"/>
+  <circle class="dot-r" cx="18" cy="18" r="5"/>
+  <circle class="dot-y" cx="36" cy="18" r="5"/>
+  <circle class="dot-g" cx="54" cy="18" r="5"/>
+  <text class="prompt" x="74" y="22">tehilla-o@github — whoami</text>
+  <text class="title" x="28" y="58" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.3s" fill="freeze"/>TEHILLA-O</text>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.12s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.12s" dur="0.4s" fill="freeze"/><text x="28" y="78" class="key">User</text><text x="120" y="78" class="val">tehilla-o</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.26s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.26s" dur="0.4s" fill="freeze"/><text x="28" y="106" class="key">Now</text><text x="120" y="106" class="val">ML systems · automation · SaaS hardening</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.4s" dur="0.4s" fill="freeze"/><text x="28" y="134" class="key">Focus</text><text x="120" y="134" class="val">Cheap, scalable pipelines that ship</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.54s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.54s" dur="0.4s" fill="freeze"/><text x="28" y="162" class="key">Stack</text><text x="120" y="162" class="val">Python · TS · React · Docker · PyTorch</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.68s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.68s" dur="0.4s" fill="freeze"/><text x="28" y="190" class="key">Projects</text><text x="120" y="190" class="val">cv.omnifichand.com</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.8200000000000001s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.8200000000000001s" dur="0.4s" fill="freeze"/><text x="28" y="218" class="key">Open to</text><text x="120" y="218" class="val">ML / automation collaborations</text></g>
+</svg>

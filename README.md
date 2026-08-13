@@ -23,6 +23,27 @@
 
 ---
 
+<div align="center">
+
+<h3><code>tehilla-o@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
+
+<br/><br/>
+
+<h3><code>tehilla-o@github ~ $ whoami</code></h3>
+<table>
+  <tr>
+    <td valign="top"><img src="./tehilla-ascii.svg" width="370" alt="ASCII portrait" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Info card" /></td>
+  </tr>
+</table>
+
+</div>
+
+<br/><br/>
+
+---
+
 <!--
 Old "Languages and Tools" icon strip (kept for reference).
 This block is commented out so the README stays clean/premium.
