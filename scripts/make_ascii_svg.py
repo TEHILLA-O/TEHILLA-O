@@ -72,19 +72,47 @@ def image_to_grid(path: Path, cols: int = 112) -> list[str]:
             idx = int(round(t * n))
             line.append(RAMP[idx])
         out.append("".join(line).rstrip())
-    return out
+    return _crop_grid(out)
+
+
+def _crop_grid(grid: list[str], margin: int = 1) -> list[str]:
+    """Trim empty margins so the portrait fills the card (less dead space)."""
+    if not grid:
+        return grid
+    # normalize widths
+    width = max(len(r) for r in grid)
+    rows = [r.ljust(width) for r in grid]
+
+    def nonempty(r: str) -> bool:
+        return any(ch not in " " for ch in r)
+
+    top = next((i for i, r in enumerate(rows) if nonempty(r)), 0)
+    bottom = next((i for i in range(len(rows) - 1, -1, -1) if nonempty(rows[i])), len(rows) - 1)
+    left = width
+    right = 0
+    for r in rows[top : bottom + 1]:
+        for i, ch in enumerate(r):
+            if ch != " ":
+                left = min(left, i)
+                right = max(right, i)
+    if right < left:
+        return grid
+    left = max(0, left - margin)
+    right = min(width - 1, right + margin)
+    top = max(0, top - margin)
+    bottom = min(len(rows) - 1, bottom + margin)
+    return [r[left : right + 1].rstrip() for r in rows[top : bottom + 1]]
 
 
 def write_svg(grid: list[str], out: Path, *, light: bool = False) -> None:
-    # monospace metrics
-    # denser grid for portrait detail
+    # Tight metrics so glyphs read as one image, not striped rows
     font_size = 7 if light else 8
-    char_w = 4.4 if light else 4.8
-    line_h = 9 if light else 10
-    pad = 14
+    char_w = 4.2 if light else 4.6
+    line_h = 7 if light else 8
+    pad = 6
     cols = max((len(r) for r in grid), default=1)
     width = int(pad * 2 + cols * char_w)
-    height = int(pad * 2 + len(grid) * line_h + 8)
+    height = int(pad * 2 + len(grid) * line_h + 4)
 
     bg = "#f0f3f6" if light else "#0d1117"
     fg = "#0d1117" if light else "#c9d1d9"
