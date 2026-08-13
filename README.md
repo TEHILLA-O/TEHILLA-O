@@ -16,14 +16,14 @@
   <h1>HEY, I'm T</h1>
   <p><strong>I build ML models, automate things, and craft sound.</strong><br/>If the code breaks, I probably wrote it.</p>
   <p>
-    <img src="https://komarev.com/ghpvc/?username=tehilla-o&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+    <img src="https://komarev.com/ghpvc/?username=tehilla-o&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="Profile views" />
     ·
     <a href="https://cv.omnites.dev/">Projects · cv.omnites.dev</a>
     ·
     <a href="https://www.linkedin.com/in/tehilla-obanor/">LinkedIn</a>
   </p>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=tehilla-o&theme=onedark&column=6&margin-w=8&margin-h=8" alt="" />
+    <img src="https://github-profile-trophy.vercel.app/?username=tehilla-o&amp;theme=onedark&amp;column=6&amp;margin-w=8&amp;margin-h=8" alt="" />
   </a>
 </div>
 
@@ -47,40 +47,36 @@ flowchart LR
 ### Featured projects
 <p align="center">
   <a href="https://github.com/TEHILLA-O/LIP-READ">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TEHILLA-O&repo=LIP-READ&theme=github_dark&hide_border=true" alt="LIP-READ" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=LIP-READ&amp;theme=github_dark&amp;hide_border=true" alt="LIP-READ" />
   </a>
   <a href="https://github.com/TEHILLA-O/SENTIMENT-ANALYSIS-PRE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TEHILLA-O&repo=SENTIMENT-ANALYSIS-PRE&theme=github_dark&hide_border=true" alt="SENTIMENT-ANALYSIS-PRE" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=SENTIMENT-ANALYSIS-PRE&amp;theme=github_dark&amp;hide_border=true" alt="SENTIMENT-ANALYSIS-PRE" />
   </a>
   <a href="https://github.com/TEHILLA-O/risk-delay-prediction-">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TEHILLA-O&repo=risk-delay-prediction-&theme=github_dark&hide_border=true" alt="risk-delay-prediction" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=risk-delay-prediction-&amp;theme=github_dark&amp;hide_border=true" alt="risk-delay-prediction" />
   </a>
   <a href="https://github.com/TEHILLA-O/stock-moonitor-and-news-analysis-using-local-llm-">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TEHILLA-O&repo=stock-moonitor-and-news-analysis-using-local-llm-&theme=github_dark&hide_border=true" alt="stock-moonitor local LLM" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=stock-moonitor-and-news-analysis-using-local-llm-&amp;theme=github_dark&amp;hide_border=true" alt="stock-moonitor local LLM" />
   </a>
 </p>
 <p align="center"><a href="https://cv.omnites.dev/"><strong>Full project list → cv.omnites.dev</strong></a></p>
 
 ### Stack
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind" />
 </p>
 
-### This week
+### Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=tehilla-o&layout=compact&theme=github_dark&hide_border=true&langs_count=6&range=last_7_days" alt="WakaTime coding activity" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=tehilla-o&show_icons=true&locale=en&layout=compact&theme=github_dark&hide_border=true&card_width=420" alt="Top languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=tehilla-o&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&card_width=420" alt="GitHub stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=tehilla-o&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true&amp;card_width=420" alt="Top languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=tehilla-o&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true&amp;rank_icon=github&amp;card_width=420" alt="GitHub stats" />
 </p>
 
 <p align="center">
