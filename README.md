@@ -1,4 +1,18 @@
 <div align="center">
+  <img src="./contrib-heatmap.svg" width="780" alt="Contribution heatmap" />
+  <table>
+    <tr>
+      <td valign="middle" align="center">
+        <img src="./tehilla-ascii.svg" width="320" alt="ASCII portrait" />
+      </td>
+      <td valign="middle" align="center">
+        <img src="./info-card.svg" width="460" alt="Info card" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
   <h1>HEY, I'm T</h1>
   <p><strong>I build ML models, automate things, and craft sound.</strong><br/>If the code breaks, I probably wrote it.</p>
   <p>
@@ -11,20 +25,6 @@
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=tehilla-o&theme=onedark&column=6&margin-w=8&margin-h=8" alt="" />
   </a>
-</div>
-
-<div align="center">
-  <img src="./contrib-heatmap.svg" width="780" alt="Contribution heatmap" />
-  <table>
-    <tr>
-      <td valign="middle" align="center">
-        <img src="./tehilla-ascii.svg" width="320" alt="ASCII portrait" />
-      </td>
-      <td valign="middle" align="center">
-        <img src="./info-card.svg" width="460" alt="Info card" />
-      </td>
-    </tr>
-  </table>
 </div>
 
 ### Current Focus
