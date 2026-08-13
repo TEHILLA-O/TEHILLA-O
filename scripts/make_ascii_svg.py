@@ -15,7 +15,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "tehilla-ascii.svg"
 
-RAMP = " .:-=+*#%@"  # fewer steps, stronger jumps = more contrast
+# Longer ramp = more midtone steps on dark skin (avoids solid @ face)
+RAMP = " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 
 # 7x5 block letter "T" for monogram fallback
 GLYPH_T = [
@@ -44,12 +45,13 @@ def monogram_grid(scale: int = 6) -> list[str]:
     return rows
 
 
-def image_to_grid(path: Path, cols: int = 96) -> list[str]:
+def image_to_grid(path: Path, cols: int = 112) -> list[str]:
     from PIL import Image  # type: ignore
 
     img = Image.open(path).convert("L")
     w, h = img.size
-    aspect = 0.52
+    # Slightly taller cells so facial features get more rows
+    aspect = 0.55
     rows = max(12, int(cols * (h / w) * aspect))
     img = img.resize((cols, rows), Image.Resampling.LANCZOS)
     px = img.load()
@@ -59,13 +61,14 @@ def image_to_grid(path: Path, cols: int = 96) -> list[str]:
         line = []
         for x in range(cols):
             v = px[x, y]
-            # hard contrast: crush near-white to space, stretch the rest
-            if v >= 245:
+            # paper plate / turtleneck highlights -> empty
+            if v >= 248:
                 line.append(" ")
                 continue
-            # gamma < 1 => midtones darker => denser glyphs on face
+            # Linear map: bright -> sparse, dark -> dense.
+            # Gamma > 1 softens crush so dark-skin midtones keep variety.
             t = max(0.0, min(1.0, (255 - v) / 255.0))
-            t = t ** 0.72
+            t = t ** 1.15
             idx = int(round(t * n))
             line.append(RAMP[idx])
         out.append("".join(line).rstrip())
@@ -74,9 +77,10 @@ def image_to_grid(path: Path, cols: int = 96) -> list[str]:
 
 def write_svg(grid: list[str], out: Path, *, light: bool = False) -> None:
     # monospace metrics
-    font_size = 8 if light else 9
-    char_w = 5.2 if light else 5.4
-    line_h = 10 if light else 11
+    # denser grid for portrait detail
+    font_size = 7 if light else 8
+    char_w = 4.4 if light else 4.8
+    line_h = 9 if light else 10
     pad = 14
     cols = max((len(r) for r in grid), default=1)
     width = int(pad * 2 + cols * char_w)
