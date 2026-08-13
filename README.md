@@ -18,7 +18,7 @@
   <p>
     <img src="https://komarev.com/ghpvc/?username=tehilla-o&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
     ·
-    <a href="https://cv.omnifichand.com/">Projects</a>
+    <a href="https://cv.omnites.dev/">Projects · cv.omnites.dev</a>
     ·
     <a href="https://www.linkedin.com/in/tehilla-obanor/">LinkedIn</a>
   </p>
@@ -31,6 +31,33 @@
 ML systems that ship · cheap scalable automation · SaaS security hardening  
 *Open to ML / automation collaborations*
 
+### How I ship ML
+```mermaid
+flowchart LR
+  A[Data / signals] --> B[Clean + features]
+  B --> C[Train / eval]
+  C --> D[Serve API]
+  D --> E[Monitor + retrain]
+  E -.-> B
+```
+
+### Featured projects
+<p align="center">
+  <a href="https://github.com/TEHILLA-O/LIP-READ">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TEHILLA-O&repo=LIP-READ&theme=github_dark&hide_border=true" alt="LIP-READ" />
+  </a>
+  <a href="https://github.com/TEHILLA-O/SENTIMENT-ANALYSIS-PRE">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TEHILLA-O&repo=SENTIMENT-ANALYSIS-PRE&theme=github_dark&hide_border=true" alt="SENTIMENT-ANALYSIS-PRE" />
+  </a>
+  <a href="https://github.com/TEHILLA-O/risk-delay-prediction-">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TEHILLA-O&repo=risk-delay-prediction-&theme=github_dark&hide_border=true" alt="risk-delay-prediction" />
+  </a>
+  <a href="https://github.com/TEHILLA-O/stock-moonitor-and-news-analysis-using-local-llm-">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TEHILLA-O&repo=stock-moonitor-and-news-analysis-using-local-llm-&theme=github_dark&hide_border=true" alt="stock-moonitor local LLM" />
+  </a>
+</p>
+<p align="center"><a href="https://cv.omnites.dev/"><strong>Full project list → cv.omnites.dev</strong></a></p>
+
 ### Stack
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -41,6 +68,11 @@ ML systems that ship · cheap scalable automation · SaaS security hardening
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+</p>
+
+### This week
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=tehilla-o&layout=compact&theme=github_dark&hide_border=true&langs_count=6&range=last_7_days" alt="WakaTime coding activity" />
 </p>
 
 <p align="center">
