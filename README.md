@@ -1,61 +1,35 @@
 <div align="center">
   <h1>HEY, I'm T</h1>
-  <h3>I build ML models, automate things, and craft sound. If the code breaks, I probably wrote it.</h3>
-
+  <p><strong>I build ML models, automate things, and craft sound.</strong><br/>If the code breaks, I probably wrote it.</p>
   <p>
-    <img
-      src="https://komarev.com/ghpvc/?username=tehilla-o&label=Profile%20views&color=0e75b6&style=flat"
-      alt="Profile views"
-    />
-  </p>
-
-  <p>
-    <a href="https://cv.omnifichand.com/">All projects</a> &nbsp;|&nbsp;
+    <img src="https://komarev.com/ghpvc/?username=tehilla-o&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+    ·
+    <a href="https://cv.omnifichand.com/">Projects</a>
+    ·
     <a href="https://www.linkedin.com/in/tehilla-obanor/">LinkedIn</a>
   </p>
-</div>
-
-<p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=tehilla-o&theme=onedark&column=6&margin-w=8&margin-h=8" alt="" />
   </a>
-</p>
-
-<br/>
-
-<div align="center">
-
-<h3><code>tehilla-o@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
-
-<br/><br/>
-
-<h3><code>tehilla-o@github ~ $ whoami</code></h3>
-<table>
-  <tr>
-    <td valign="top" width="370">
-      <img src="./tehilla-ascii.svg" width="370" alt="ASCII portrait" />
-    </td>
-    <td valign="top" width="490">
-      <img src="./info-card.svg" width="490" alt="Info card" />
-    </td>
-  </tr>
-</table>
-
 </div>
 
-<br/>
-
----
+<div align="center">
+  <img src="./contrib-heatmap.svg" width="780" alt="Contribution heatmap" />
+  <table>
+    <tr>
+      <td valign="middle" align="center">
+        <img src="./tehilla-ascii.svg" width="320" alt="ASCII portrait" />
+      </td>
+      <td valign="middle" align="center">
+        <img src="./info-card.svg" width="460" alt="Info card" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### Current Focus
-- ML systems that ship quickly and reliably
-- Automation for cheap and scalable operations
-- Minor cyber security hardening for SaaS products
-
-<p align="center"><i>Open to ML / automation collaborations</i></p>
-
-<br/>
+ML systems that ship · cheap scalable automation · SaaS security hardening  
+*Open to ML / automation collaborations*
 
 ### Stack
 <p align="center">
@@ -69,25 +43,13 @@
   <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
 </p>
 
-<br/>
-
-### Stats
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=tehilla-o&show_icons=true&locale=en&layout=compact&theme=github_dark&hide_border=true&card_width=460"
-    alt="Top languages"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=tehilla-o&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&card_width=460"
-    alt="GitHub stats"
-  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=tehilla-o&show_icons=true&locale=en&layout=compact&theme=github_dark&hide_border=true&card_width=420" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tehilla-o&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&card_width=420" alt="GitHub stats" />
 </p>
 
-<br/>
-
-### Support
 <p align="center">
   <a href="https://buymeacoffee.com/tehilla">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee" />
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="42" width="180" alt="Buy me a coffee" />
   </a>
 </p>
