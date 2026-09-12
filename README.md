@@ -49,17 +49,39 @@ flowchart LR
   <a href="https://github.com/TEHILLA-O/LIP-READ">
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=LIP-READ&amp;theme=github_dark&amp;hide_border=true" alt="LIP-READ" />
   </a>
-  <a href="https://github.com/TEHILLA-O/SENTIMENT-ANALYSIS-PRE">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=SENTIMENT-ANALYSIS-PRE&amp;theme=github_dark&amp;hide_border=true" alt="SENTIMENT-ANALYSIS-PRE" />
+  <a href="https://github.com/TEHILLA-O/staylab">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=staylab&amp;theme=github_dark&amp;hide_border=true" alt="staylab" />
   </a>
-  <a href="https://github.com/TEHILLA-O/risk-delay-prediction">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=risk-delay-prediction&amp;theme=github_dark&amp;hide_border=true" alt="risk-delay-prediction" />
+  <a href="https://github.com/TEHILLA-O/RAG-AUTOMATION">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=RAG-AUTOMATION&amp;theme=github_dark&amp;hide_border=true" alt="RAG-AUTOMATION" />
   </a>
-  <a href="https://github.com/TEHILLA-O/private-market-research">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=private-market-research&amp;theme=github_dark&amp;hide_border=true" alt="private-market-research" />
+  <a href="https://github.com/TEHILLA-O/N8N-local-Automate">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=N8N-local-Automate&amp;theme=github_dark&amp;hide_border=true" alt="N8N-local-Automate" />
+  </a>
+  <a href="https://github.com/TEHILLA-O/opportunity-intelligence-engine">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=opportunity-intelligence-engine&amp;theme=github_dark&amp;hide_border=true" alt="opportunity-intelligence-engine" />
+  </a>
+  <a href="https://github.com/TEHILLA-O/org-chart">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=org-chart&amp;theme=github_dark&amp;hide_border=true" alt="org-chart" />
   </a>
 </p>
 <p align="center"><a href="https://cv.omnites.dev/"><strong>Full project list → cv.omnites.dev</strong></a></p>
+
+### Live demos
+Drop new links in the blanks as you ship. Ones already live:
+
+| Project | Demo |
+| --- | --- |
+| OrgPulse (`org-chart`) | https://org-chart-ruby.vercel.app |
+| Opportunity Intelligence | https://opportunity-intelligence-engine-iota.vercel.app |
+| HaloCV (`for-the-students`) | https://for-the-students.vercel.app |
+| PMO dashboard | https://pmo-dashbard.vercel.app |
+| 3D CV | https://3d-cv-blond.vercel.app |
+| Omnific Hand | https://omnifichand.vercel.app |
+| _Add next demo_ | `_paste URL here_` |
+| _Add next demo_ | `_paste URL here_` |
+
+More context and case studies: [cv.omnites.dev](https://cv.omnites.dev/)
 
 ### Stack
 <p align="center">
