@@ -25,7 +25,7 @@
 </div>
 
 ### Selected work
-I help UK teams cut repetitive ops work — data pipelines, RAG, experiment readouts, and internal tools — through [Omnific Hand](https://omnifichand.vercel.app) and open case studies on GitHub.
+I help UK teams cut repetitive ops work — data pipelines, RAG, experiment readouts, and internal tools — through Omnific Hand and open case studies on GitHub.
 
 ### Current focus
 ML systems that ship · cheap scalable automation · SaaS security hardening  
@@ -52,27 +52,58 @@ flowchart LR
 | [staylab](https://github.com/TEHILLA-O/staylab) | Experiment analytics on real Airbnb London data + simulated A/B | SQL metrics · z-test readout · FastAPI + Next.js |
 | [RAG-AUTOMATION](https://github.com/TEHILLA-O/RAG-AUTOMATION) | KnowledgeOps — incremental RAG, citations, knowledge gaps | **49** tests · **72%** coverage · MRR **0.625** |
 | [N8N-local-Automate](https://github.com/TEHILLA-O/N8N-local-Automate) | LocalFlow — n8n + Postgres, lead → review | **10** workflows · Docker Compose case study |
-| [opportunity-intelligence-engine](https://github.com/TEHILLA-O/opportunity-intelligence-engine) | Score commercial opportunities — no LLM | pytest + Ruff · FastAPI · [Demo](https://opportunity-intelligence-engine-iota.vercel.app) |
-| [org-chart](https://github.com/TEHILLA-O/org-chart) | OrgPulse — people vs positions org graph | Vitest + Playwright · [Demo](https://org-chart-ruby.vercel.app) |
+| [opportunity-intelligence-engine](https://github.com/TEHILLA-O/opportunity-intelligence-engine) | Score commercial opportunities — no LLM | pytest + Ruff · FastAPI · [Live demo](https://opportunity-intelligence-engine-iota.vercel.app) |
+| [org-chart](https://github.com/TEHILLA-O/org-chart) | OrgPulse — people vs positions org graph | Vitest + Playwright · [Live demo](https://org-chart-ruby.vercel.app) |
 
 Full list → [cv.omnites.dev](https://cv.omnites.dev/)
 
 ### Live demos
 
+#### OrgPulse — org intelligence
+Hierarchy · Faces · Reports
+
 <p align="center">
-  <a href="https://org-chart-ruby.vercel.app"><img src="./assets/demo-orgpulse.png" width="260" alt="OrgPulse demo" /></a>
-  <a href="https://for-the-students.vercel.app"><img src="./assets/demo-halocv.png" width="260" alt="HaloCV demo" /></a>
-  <a href="https://opportunity-intelligence-engine-iota.vercel.app"><img src="./assets/demo-opportunity.png" width="260" alt="Opportunity Intelligence demo" /></a>
+  <img src="./assets/demo-orgpulse-01.png" width="280" alt="OrgPulse hierarchy chart" />
+  <img src="./assets/demo-orgpulse-02.png" width="280" alt="OrgPulse faces view" />
+  <img src="./assets/demo-orgpulse-03.png" width="280" alt="OrgPulse reports" />
 </p>
 
-| Project |  |
+<p align="center"><a href="https://org-chart-ruby.vercel.app"><strong>Live demo →</strong></a></p>
+
+#### HaloCV — ATS toolkit for students
+Scan · Compare · CV builder
+
+<p align="center">
+  <img src="./assets/demo-halocv-01.png" width="280" alt="HaloCV resume scanner" />
+  <img src="./assets/demo-halocv-02.png" width="280" alt="HaloCV compare mode" />
+  <img src="./assets/demo-halocv-03.png" width="280" alt="HaloCV CV builder" />
+</p>
+
+<p align="center"><a href="https://for-the-students.vercel.app"><strong>Live demo →</strong></a></p>
+
+#### Opportunity Intelligence — scored deal flow
+Dashboard · Pipeline runs
+
+<p align="center">
+  <img src="./assets/demo-opportunity-01.png" width="400" alt="Opportunity Engine dashboard" />
+  <img src="./assets/demo-opportunity-02.png" width="400" alt="Opportunity Engine runs" />
+</p>
+
+<p align="center"><a href="https://opportunity-intelligence-engine-iota.vercel.app"><strong>Live demo →</strong></a></p>
+
+#### PMO dashboard — portfolio intelligence
+Overview · Executive charts
+
+<p align="center">
+  <img src="./assets/demo-pmo-01.png" width="400" alt="PMO portfolio overview" />
+  <img src="./assets/demo-pmo-02.png" width="400" alt="PMO executive charts" />
+</p>
+
+<p align="center"><a href="https://pmo-dashbard.vercel.app"><strong>Live demo →</strong></a></p>
+
+| Also live |  |
 | --- | --- |
-| OrgPulse | [Live demo](https://org-chart-ruby.vercel.app) |
-| HaloCV | [Live demo](https://for-the-students.vercel.app) |
-| Opportunity Intelligence | [Live demo](https://opportunity-intelligence-engine-iota.vercel.app) |
-| PMO dashboard | [Live demo](https://pmo-dashbard.vercel.app) |
 | 3D CV | [Live demo](https://3d-cv-blond.vercel.app) |
-| Omnific Hand | [Live demo](https://omnifichand.vercel.app) |
 
 ### Stack
 `Python` · `TypeScript` · `React` · `Node.js` · `PyTorch` · `Docker` · `PostgreSQL` · `Tailwind` · `n8n` · `FastAPI`
