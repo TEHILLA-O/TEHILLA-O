@@ -52,11 +52,11 @@ flowchart LR
   <a href="https://github.com/TEHILLA-O/SENTIMENT-ANALYSIS-PRE">
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=SENTIMENT-ANALYSIS-PRE&amp;theme=github_dark&amp;hide_border=true" alt="SENTIMENT-ANALYSIS-PRE" />
   </a>
-  <a href="https://github.com/TEHILLA-O/risk-delay-prediction-">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=risk-delay-prediction-&amp;theme=github_dark&amp;hide_border=true" alt="risk-delay-prediction" />
+  <a href="https://github.com/TEHILLA-O/risk-delay-prediction">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=risk-delay-prediction&amp;theme=github_dark&amp;hide_border=true" alt="risk-delay-prediction" />
   </a>
-  <a href="https://github.com/TEHILLA-O/stock-moonitor-and-news-analysis-using-local-llm-">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=stock-moonitor-and-news-analysis-using-local-llm-&amp;theme=github_dark&amp;hide_border=true" alt="stock-moonitor local LLM" />
+  <a href="https://github.com/TEHILLA-O/private-market-research">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=private-market-research&amp;theme=github_dark&amp;hide_border=true" alt="private-market-research" />
   </a>
 </p>
 <p align="center"><a href="https://cv.omnites.dev/"><strong>Full project list → cv.omnites.dev</strong></a></p>
