@@ -16,18 +16,13 @@
   <h1>HEY, I'm T</h1>
   <p><strong>I build ML models, automate things, and craft sound.</strong><br/>If the code breaks, I probably wrote it.</p>
   <p>
-    <img src="https://komarev.com/ghpvc/?username=tehilla-o&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="Profile views" />
-    ·
-    <a href="https://cv.omnites.dev/">Projects · cv.omnites.dev</a>
+    <a href="https://cv.omnites.dev/">cv.omnites.dev</a>
     ·
     <a href="https://www.linkedin.com/in/tehilla-obanor/">LinkedIn</a>
   </p>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=tehilla-o&amp;theme=onedark&amp;column=6&amp;margin-w=8&amp;margin-h=8" alt="" />
-  </a>
 </div>
 
-### Current Focus
+### Current focus
 ML systems that ship · cheap scalable automation · SaaS security hardening  
 *Open to ML / automation collaborations*
 
@@ -45,64 +40,34 @@ flowchart LR
 ```
 
 ### Featured projects
-<p align="center">
-  <a href="https://github.com/TEHILLA-O/LIP-READ">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=LIP-READ&amp;theme=github_dark&amp;hide_border=true" alt="LIP-READ" />
-  </a>
-  <a href="https://github.com/TEHILLA-O/staylab">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=staylab&amp;theme=github_dark&amp;hide_border=true" alt="staylab" />
-  </a>
-  <a href="https://github.com/TEHILLA-O/RAG-AUTOMATION">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=RAG-AUTOMATION&amp;theme=github_dark&amp;hide_border=true" alt="RAG-AUTOMATION" />
-  </a>
-  <a href="https://github.com/TEHILLA-O/N8N-local-Automate">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=N8N-local-Automate&amp;theme=github_dark&amp;hide_border=true" alt="N8N-local-Automate" />
-  </a>
-  <a href="https://github.com/TEHILLA-O/opportunity-intelligence-engine">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=opportunity-intelligence-engine&amp;theme=github_dark&amp;hide_border=true" alt="opportunity-intelligence-engine" />
-  </a>
-  <a href="https://github.com/TEHILLA-O/org-chart">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=TEHILLA-O&amp;repo=org-chart&amp;theme=github_dark&amp;hide_border=true" alt="org-chart" />
-  </a>
-</p>
-<p align="center"><a href="https://cv.omnites.dev/"><strong>Full project list → cv.omnites.dev</strong></a></p>
+
+| Project | What it is |
+| --- | --- |
+| [LIP-READ](https://github.com/TEHILLA-O/LIP-READ) | Lip-reading from video/webcam — no audio in the pipeline |
+| [staylab](https://github.com/TEHILLA-O/staylab) | Experiment analytics on real Airbnb London data + simulated A/B layer |
+| [RAG-AUTOMATION](https://github.com/TEHILLA-O/RAG-AUTOMATION) | KnowledgeOps — incremental RAG, hybrid retrieval, knowledge gaps |
+| [N8N-local-Automate](https://github.com/TEHILLA-O/N8N-local-Automate) | LocalFlow — n8n + Postgres, lead intake → review |
+| [opportunity-intelligence-engine](https://github.com/TEHILLA-O/opportunity-intelligence-engine) | Collect, clean, score commercial opportunities — no LLM |
+| [org-chart](https://github.com/TEHILLA-O/org-chart) | OrgPulse — people vs positions, interactive reporting graph |
+
+Full list → [cv.omnites.dev](https://cv.omnites.dev/)
 
 ### Live demos
-Drop new links in the blanks as you ship. Ones already live:
 
 | Project | Demo |
 | --- | --- |
-| OrgPulse (`org-chart`) | https://org-chart-ruby.vercel.app |
-| Opportunity Intelligence | https://opportunity-intelligence-engine-iota.vercel.app |
-| HaloCV (`for-the-students`) | https://for-the-students.vercel.app |
-| PMO dashboard | https://pmo-dashbard.vercel.app |
-| 3D CV | https://3d-cv-blond.vercel.app |
-| Omnific Hand | https://omnifichand.vercel.app |
-| _Add next demo_ | `_paste URL here_` |
-| _Add next demo_ | `_paste URL here_` |
-
-More context and case studies: [cv.omnites.dev](https://cv.omnites.dev/)
+| OrgPulse | [org-chart-ruby.vercel.app](https://org-chart-ruby.vercel.app) |
+| Opportunity Intelligence | [opportunity-intelligence-engine-iota.vercel.app](https://opportunity-intelligence-engine-iota.vercel.app) |
+| HaloCV | [for-the-students.vercel.app](https://for-the-students.vercel.app) |
+| PMO dashboard | [pmo-dashbard.vercel.app](https://pmo-dashbard.vercel.app) |
+| 3D CV | [3d-cv-blond.vercel.app](https://3d-cv-blond.vercel.app) |
+| Omnific Hand | [omnifichand.vercel.app](https://omnifichand.vercel.app) |
 
 ### Stack
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind" />
-</p>
+`Python` · `TypeScript` · `React` · `Node.js` · `PyTorch` · `Docker` · `PostgreSQL` · `Tailwind`
 
-### Stats
+### Activity
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=tehilla-o&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true&amp;card_width=420" alt="Top languages" />
-  <img src="https://github-stats-extended.vercel.app/api?username=tehilla-o&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true&amp;rank_icon=github&amp;card_width=420" alt="GitHub stats" />
-</p>
-
-<p align="center">
-  <a href="https://buymeacoffee.com/tehilla">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="42" width="180" alt="Buy me a coffee" />
-  </a>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=tehilla-o&layout=compact&theme=github_dark&hide_border=true&card_width=420" alt="Top languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=tehilla-o&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&card_width=420" alt="GitHub stats" />
 </p>

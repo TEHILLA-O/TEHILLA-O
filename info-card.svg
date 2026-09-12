@@ -10,6 +10,7 @@
     .key { fill: #3fb950; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; font-weight: 700; }
     .val { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; }
     .prompt { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; }
+    .cursor { fill: #58a6ff; }
   </style>
   <rect class="panel" x="0.5" y="0.5" width="489" height="279" rx="10"/>
   <rect class="bar" x="0.5" y="0.5" width="489" height="36" rx="10"/>
@@ -18,6 +19,55 @@
   <circle class="dot-y" cx="36" cy="18" r="5"/>
   <circle class="dot-g" cx="54" cy="18" r="5"/>
   <text class="prompt" x="74" y="22">tehilla-o@github — whoami</text>
-  <text class="title" x="28" y="58" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.3s" fill="freeze"/>TEHILLA-O</text>
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.12s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.12s" dur="0.4s" fill="freeze"/><text x="28" y="78" class="key">User</text><text x="120" y="78" class="val">tehilla-o</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.26s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.26s" dur="0.4s" fill="freeze"/><text x="28" y="106" class="key">Now</text><text x="120" y="106" class="val">ML systems · automation · SaaS hardening</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.4s" dur="0.4s" fill="freeze"/><text x="28" y="134" class="key">Focus</text><text x="120" y="134" class="val">Cheap, scalable pipelines that ship</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.54s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.54s" dur="0.4s" fill="freeze"/><text x="28" y="162" class="key">Stack</text><text x="120" y="162" class="val">Python · TS · React · Docker · PyTorch</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.68s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.68s" dur="0.4s" fill="freeze"/><text x="28" y="190" class="key">Projects</text><text x="120" y="190" class="val">cv.omnites.dev</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.8200000000000001s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.8200000000000001s" dur="0.4s" fill="freeze"/><text x="28" y="218" class="key">Open to</text><text x="120" y="218" class="val">ML / automation collaborations</text></g>
+
+  <text class="title" x="28" y="58" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.3s" fill="freeze"/>
+    TEHILLA-O
+  </text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.12s" dur="0.35s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.12s" dur="0.35s" fill="freeze"/>
+    <text x="28" y="78" class="key">User</text>
+    <text x="120" y="78" class="val">tehilla-o</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.26s" dur="0.35s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.26s" dur="0.35s" fill="freeze"/>
+    <text x="28" y="106" class="key">Now</text>
+    <text x="120" y="106" class="val">ML systems · automation · SaaS hardening</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.40s" dur="0.35s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.40s" dur="0.35s" fill="freeze"/>
+    <text x="28" y="134" class="key">Focus</text>
+    <text x="120" y="134" class="val">Cheap, scalable pipelines that ship</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.54s" dur="0.35s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.54s" dur="0.35s" fill="freeze"/>
+    <text x="28" y="162" class="key">Stack</text>
+    <text x="120" y="162" class="val">Python · TS · React · Docker · PyTorch</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.68s" dur="0.35s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.68s" dur="0.35s" fill="freeze"/>
+    <text x="28" y="190" class="key">Projects</text>
+    <text x="120" y="190" class="val">cv.omnites.dev</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.82s" dur="0.35s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" begin="0.82s" dur="0.35s" fill="freeze"/>
+    <text x="28" y="218" class="key">Open to</text>
+    <text x="120" y="218" class="val">ML / automation collaborations</text>
+  </g>
+
+  <!-- soft blinking cursor after the last line -->
+  <rect class="cursor" x="28" y="236" width="8" height="14" rx="1" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.35;0.36;0.68;0.69;1" dur="1.2s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <text class="prompt" x="42" y="248" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.2s" fill="freeze"/>
+    _
+  </text>
 </svg>
