@@ -25,7 +25,7 @@
 </div>
 
 ### Selected work
-I help UK teams cut repetitive ops work — data pipelines, RAG, experiment readouts, and internal tools — through Omnific Hand and open case studies on GitHub.
+I help UK teams cut repetitive ops work: data pipelines, RAG, experiment readouts, and internal tools through Omnific Hand and open case studies on GitHub.
 
 ### Current focus
 ML systems that ship · cheap scalable automation · SaaS security hardening  
@@ -48,18 +48,18 @@ flowchart LR
 
 | Project | What it is | Proof |
 | --- | --- | --- |
-| [LIP-READ](https://github.com/TEHILLA-O/LIP-READ) | Visual speech from video/webcam — no audio | Full-pipeline WER **25.7%** · model path **5.7%** |
+| [LIP-READ](https://github.com/TEHILLA-O/LIP-READ) | Visual speech from video/webcam (no audio) | Full-pipeline WER **25.7%** · model path **5.7%** |
 | [staylab](https://github.com/TEHILLA-O/staylab) | Experiment analytics on real Airbnb London data + simulated A/B | SQL metrics · z-test readout · FastAPI + Next.js |
-| [RAG-AUTOMATION](https://github.com/TEHILLA-O/RAG-AUTOMATION) | KnowledgeOps — incremental RAG, citations, knowledge gaps | **49** tests · **72%** coverage · MRR **0.625** |
-| [N8N-local-Automate](https://github.com/TEHILLA-O/N8N-local-Automate) | LocalFlow — n8n + Postgres, lead → review | **10** workflows · Docker Compose case study |
-| [opportunity-intelligence-engine](https://github.com/TEHILLA-O/opportunity-intelligence-engine) | Score commercial opportunities — no LLM | pytest + Ruff · FastAPI · [Live demo](https://opportunity-intelligence-engine-iota.vercel.app) |
-| [org-chart](https://github.com/TEHILLA-O/org-chart) | OrgPulse — people vs positions org graph | Vitest + Playwright · [Live demo](https://org-chart-ruby.vercel.app) |
+| [RAG-AUTOMATION](https://github.com/TEHILLA-O/RAG-AUTOMATION) | KnowledgeOps: RAG, citations, knowledge gaps | **49** tests · **72%** coverage · MRR **0.625** |
+| [N8N-local-Automate](https://github.com/TEHILLA-O/N8N-local-Automate) | LocalFlow: + Postgres, lead → review | **10** workflows · Docker Compose case study |
+| [opportunity-intelligence-engine](https://github.com/TEHILLA-O/opportunity-intelligence-engine) | Score commercial opportunities (no LLM) | pytest + Ruff · FastAPI · [Live demo](https://opportunity-intelligence-engine-iota.vercel.app) |
+| [org-chart](https://github.com/TEHILLA-O/org-chart) | OrgPulse: vs positions org graph | Vitest + Playwright · [Live demo](https://org-chart-ruby.vercel.app) |
 
 Full list → [cv.omnites.dev](https://cv.omnites.dev/)
 
 ### Live demos
 
-#### OrgPulse — org intelligence
+#### OrgPulse: org intelligence
 Hierarchy · Faces · Reports
 
 <p align="center">
@@ -70,7 +70,7 @@ Hierarchy · Faces · Reports
 
 <p align="center"><a href="https://org-chart-ruby.vercel.app"><strong>Live demo →</strong></a></p>
 
-#### HaloCV — ATS toolkit for students
+#### HaloCV: ATS toolkit for students
 Scan · Compare · CV builder
 
 <p align="center">
@@ -81,7 +81,7 @@ Scan · Compare · CV builder
 
 <p align="center"><a href="https://for-the-students.vercel.app"><strong>Live demo →</strong></a></p>
 
-#### Opportunity Intelligence — scored deal flow
+#### Opportunity Intelligence: scored deal flow
 Dashboard · Pipeline runs
 
 <p align="center">
@@ -91,7 +91,7 @@ Dashboard · Pipeline runs
 
 <p align="center"><a href="https://opportunity-intelligence-engine-iota.vercel.app"><strong>Live demo →</strong></a></p>
 
-#### PMO dashboard — portfolio intelligence
+#### PMO dashboard: portfolio intelligence
 Overview · Executive charts
 
 <p align="center">
