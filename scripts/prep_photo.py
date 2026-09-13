@@ -27,17 +27,18 @@ DEFAULT_PHOTO = Path(
 
 
 def face_shoulders_crop(img: Image.Image) -> Image.Image:
+    """Tight face close-up for clearer ASCII features."""
     w, h = img.size
-    left, right = int(w * 0.10), int(w * 0.90)
-    top, bottom = int(h * 0.00), int(h * 0.46)
+    left, right = int(w * 0.24), int(w * 0.76)
+    top, bottom = int(h * 0.02), int(h * 0.33)
     crop = img.crop((left, top, right, bottom))
     cw, ch = crop.size
-    z = 1.10
+    z = 1.08
     nw, nh = int(cw / z), int(ch / z)
-    cx, cy = cw // 2, int(ch * 0.36)
+    cx, cy = cw // 2, int(ch * 0.48)
     l2 = max(0, cx - nw // 2)
     t2 = max(0, cy - nh // 2)
-    return crop.crop((l2, t2, l2 + nw, t2 + nh))
+    return crop.crop((l2, t2, min(cw, l2 + nw), min(ch, t2 + nh)))
 
 
 def studio_bg_mask(bgr: np.ndarray) -> np.ndarray:
