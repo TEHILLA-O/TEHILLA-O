@@ -18,7 +18,7 @@
   <circle class="dot-r" cx="18" cy="18" r="5"/>
   <circle class="dot-y" cx="36" cy="18" r="5"/>
   <circle class="dot-g" cx="54" cy="18" r="5"/>
-  <text class="prompt" x="74" y="22">tehilla-o@github — whoami</text>
+  <text class="prompt" x="74" y="22">tehilla-o@github · whoami</text>
 
   <text class="title" x="28" y="58" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.3s" fill="freeze"/>
