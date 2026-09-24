@@ -48,6 +48,7 @@ flowchart LR
 
 | Project | What it is | Proof |
 | --- | --- | --- |
+| [Afterframe](https://afterframe.omnitest.dev/) | AI creative studio: image/video across multiple models | Live studio · [afterframe.omnitest.dev](https://afterframe.omnitest.dev/) |
 | [LIP-READ](https://github.com/TEHILLA-O/LIP-READ) | Visual speech from video/webcam (no audio) | Full-pipeline WER **25.7%** · model path **5.7%** |
 | [staylab](https://github.com/TEHILLA-O/staylab) | Experiment analytics on real Airbnb London data + simulated A/B | SQL metrics · z-test readout · FastAPI + Next.js |
 | [knowledgeops](https://github.com/TEHILLA-O/knowledgeops) | KnowledgeOps: RAG, citations, knowledge gaps | **49** tests · **72%** coverage · MRR **0.625** |
@@ -58,6 +59,17 @@ flowchart LR
 Full list → [cv.omnitest.dev](https://cv.omnitest.dev/)
 
 ### Live demos
+
+#### Afterframe: AI creative studio
+Image · Video · Multi-model orchestration
+
+<p align="center">
+  <img src="./assets/demo-afterframe-01.png" width="400" alt="Afterframe homepage hero with Pro Studio mock" />
+  <img src="./assets/demo-afterframe-02.png" width="280" alt="Afterframe Pro Studio Text to Image session" />
+</p>
+
+<p align="center"><a href="https://afterframe.omnitest.dev/"><strong>Live demo →</strong></a></p>
+
 
 #### OrgPulse: org intelligence
 Hierarchy · Faces · Reports
