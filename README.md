@@ -27,7 +27,7 @@
 ### Selected work
 I help UK teams cut repetitive ops work: data pipelines, RAG, experiment readouts, and internal tools through Omnific Hand and open case studies on GitHub.
 
-I also keep an open research map of Nigeria fintech and tech companies (disclosed funding, licences, and where a small ML shop can sell vs clone) in [nigeria-tech-landscape](https://github.com/TEHILLA-O/nigeria-tech-landscape).
+I also publish an open Nigeria fintech and tech research dataset (disclosed funding, licences, and company directory) in [nigeria-tech-landscape](https://github.com/TEHILLA-O/nigeria-tech-landscape).
 
 ### Current focus
 ML systems that ship · cheap scalable automation · SaaS security hardening  
