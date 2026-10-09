@@ -27,7 +27,7 @@
 ### Selected work
 I help UK teams cut repetitive ops work: data pipelines, RAG, experiment readouts, and internal tools through Omnific Hand and open case studies on GitHub.
 
-I also publish an open Nigeria fintech and tech research dataset (disclosed funding, licences, and company directory) in [nigeria-tech-landscape](https://github.com/TEHILLA-O/nigeria-tech-landscape).
+I also publish an open Nigeria fintech and tech research dataset (disclosed funding, licences, and company directory) in [Nigeria Tech Landscape](https://github.com/TEHILLA-O/nigeria-tech-landscape).
 
 ### Current focus
 ML systems that ship · cheap scalable automation · SaaS security hardening  
@@ -51,12 +51,12 @@ flowchart LR
 | Project | What it is | Proof |
 | --- | --- | --- |
 | [Afterframe](https://afterframe.omnitest.dev/) | AI creative studio: image/video across multiple models | Live studio · [afterframe.omnitest.dev](https://afterframe.omnitest.dev/) |
-| [LIP-READ](https://github.com/TEHILLA-O/LIP-READ) | Visual speech from video/webcam (no audio) | Full-pipeline WER **25.7%** · model path **5.7%** |
-| [staylab](https://github.com/TEHILLA-O/staylab) | Experiment analytics on real Airbnb London data + simulated A/B | SQL metrics · z-test readout · FastAPI + Next.js |
-| [knowledgeops](https://github.com/TEHILLA-O/knowledgeops) | KnowledgeOps: RAG, citations, knowledge gaps | **49** tests · **72%** coverage · MRR **0.625** |
-| [localflow](https://github.com/TEHILLA-O/localflow) | LocalFlow: n8n and Postgres, lead to review | **10** workflows · Docker Compose case study |
-| [opportunity-intelligence-engine](https://github.com/TEHILLA-O/opportunity-intelligence-engine) | Score commercial opportunities (no LLM) | pytest + Ruff · FastAPI · [Live demo](https://opportunity-intelligence-engine-iota.vercel.app) |
-| [orgpulse](https://github.com/TEHILLA-O/orgpulse) | OrgPulse: people vs positions org graph | Vitest + Playwright · [Live demo](https://org-chart-ruby.vercel.app) |
+| [Visual Speech](https://github.com/TEHILLA-O/LIP-READ) | Visual speech from video/webcam (no audio) | Full-pipeline WER **25.7%** · model path **5.7%** |
+| [StayLab](https://github.com/TEHILLA-O/staylab) | Experiment analytics on real Airbnb London data + simulated A/B | SQL metrics · z-test readout · FastAPI + Next.js |
+| [KnowledgeOps](https://github.com/TEHILLA-O/knowledgeops) | RAG with citations and knowledge gap tracking | **49** tests · **72%** coverage · MRR **0.625** |
+| [LocalFlow](https://github.com/TEHILLA-O/localflow) | n8n and Postgres automation, from lead to review | **10** workflows · Docker Compose case study |
+| [Opportunity Intelligence Engine](https://github.com/TEHILLA-O/opportunity-intelligence-engine) | Score commercial opportunities (no LLM) | pytest + Ruff · FastAPI · [Live demo](https://opportunity-intelligence-engine-iota.vercel.app) |
+| [OrgPulse](https://github.com/TEHILLA-O/orgpulse) | Org graph that keeps people and positions separate | Vitest + Playwright · [Live demo](https://org-chart-ruby.vercel.app) |
 
 Full list → [cv.omnitest.dev](https://cv.omnitest.dev/)
 
