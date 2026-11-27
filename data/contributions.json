@@ -1,9 +1,9 @@
 {
   "username": "tehilla-o",
-  "fetched_at": "2026-11-26T16:54:45.346317Z",
-  "total_contributions": 405,
-  "current_streak": 123,
-  "longest_streak": 123,
+  "fetched_at": "2026-11-27T16:40:12.789798Z",
+  "total_contributions": 412,
+  "current_streak": 125,
+  "longest_streak": 125,
   "best_day": {
     "date": "2025-12-11",
     "count": 9,
@@ -22,7 +22,7 @@
     "2026-08": 59,
     "2026-09": 60,
     "2026-10": 41,
-    "2026-11": 45
+    "2026-11": 52
   },
   "days": [
     {
@@ -1867,8 +1867,13 @@
     },
     {
       "date": "2026-11-26",
-      "count": 0,
-      "level": 0
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-27",
+      "count": 6,
+      "level": 3
     }
   ]
 }
